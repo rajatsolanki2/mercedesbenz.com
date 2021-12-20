@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.welcome{
+    padding-bottom: 8%;
+}
+
+.welcome h4
+{
+    padding: 8% 31% 0% 31%;
+}
+
+.welcome p{
+    padding: 0% 31% 2% 31%;
+}
+
+.brandimg
+{
+    margin-left: 12%;
+}
+
+.middlemenu
+{
+    margin-left: 42%;
+}
+
+.row1
+{
+    height: 100px;
+}
+
+.cusTable{
+    line-height: 8px;
+    padding-top: 10px;
+}
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+@media(max-width: 576px){
+    .brandimg
+    {
+        margin-left: 0%;
+    }
+
+    .middlemenu
+    {
+        margin-left: 25%;
+    }
+}
+
+@media(max-width: 400px)
+{
+    .sideimggallery{
+        width: 132px !important;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media(min-width: 576px)
+{
+    .middlemenu
+    {
+        margin-left: 30%;
+    }
+
+    .sideimggallery{
+        width: 202px !important;
+    }
+}
+
+
+@media(min-width: 768px){
+    .middlemenu
+    {
+        margin-left: 35%;
+    }
+
+    .sideimggallery{
+        width: 269px !important;
+    }
+
+
+}
+
+
+@media (min-width: 992px){
+    .middlemenu
+    {
+    margin-left: 42%;
+    }
+
+    .sideimggallery{
+        width: 336px !important;
+    }
+
+    .footerp
+    {
+        padding-right: 1px;
+    }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){
+    .sideimggallery{
+        width: 410px !important;
+    }
+
+    .footerp
+    {
+        padding-right: 600px;
+    }
+
+  
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px){
+    .sideimggallery{
+        width: 510px !important;
+    }
+
+    .footerp
+    {
+        padding-right: 900px;
+    }
+
+    
+} 
+
+
+
